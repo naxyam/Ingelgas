@@ -8,6 +8,29 @@ body{
   height: 100%;
 }
 
+.container{
+  animation-name: slide-animacion;
+  animation-duration: 3s;
+}
+  @keyframes slide-animacion{
+    0%{
+        margin-top: 150%;
+
+    }
+
+    60%{
+      margin-top: -5%;
+
+
+    }
+
+    100%{
+      margin-top: 0;
+    }
+  }
+
+
+
 .con-logo2 h1{
   font-family: sans-serif;
   color: red;
@@ -16,6 +39,19 @@ body{
   font-size: 1.3em
 }
 
+.header{
+  background: black;
+  padding: 20px;
+}
+
+.borde{
+  border: outset 1px rgb(12,21,178);
+  }
+
+.borde:hover{
+ background: rgba(12,21,178,0.75);
+ color:red;
+}
 .enlace-nav{
   font-size: 20px;
   color:white;
@@ -60,15 +96,31 @@ body{
 .shadow{
   font-size: 20px;
   color: white;
-  border: grove;
+  border: groove;
 
 }
 
 .galeria2 img{
-  height: 20em;
+  height: 15em;
   width: 90%;
 }
 
 .espacio{
-  padding:30px;
+  padding:10px;
 }
+
+.img-social{/*formato logo redes sociles*/
+ width: 40px;
+ height: 40px;
+ }
+
+ .dark{
+   background: black;
+   color: white;
+ }
+
+ .mapa{
+   width:200px;
+   height: 100px;
+   padding-bottom: 10px;
+ }
