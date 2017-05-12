@@ -1,5 +1,5 @@
 body{
-  background-image: url("../img/body.jpg");
+  background-image: url("../img/body2.jpg");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -124,3 +124,36 @@ body{
    height: 100px;
    padding-bottom: 10px;
  }
+
+ .mapa-contacto{
+   width: 800px;
+   height: 300px;
+   border: 2px groove black;
+ }
+
+.i-frame{
+  width: 800px;
+  height: 200px;
+
+
+}
+
+.contdir{
+  color:black;
+
+  font-size: 15px;
+  text-align: center;
+  padding-top: 20px;
+  border: 2px groove rgba(255, 255, 255, 0.5);
+}
+.contacto{
+  height: 200px;
+}
+
+.carousel-inner{
+  max-width: 600px;
+}
+
+@media screen and (max-width 770px){
+
+}
