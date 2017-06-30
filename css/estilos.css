@@ -104,13 +104,13 @@ body{
   padding:10px;
 }
 
-.img-social{/*formato logo redes sociles*/
+.img-social{/*formato logo redes sociales*/
  width: 40px;
  height: 40px;
  }
 
  .dark{
-   background: gray;
+   background: black;
    color: white;
  }
 
@@ -136,7 +136,7 @@ body{
 .contdir{
   color:black;
 
-  font-size: 15px;
+  font-size: 12px;
   text-align: center;
   padding-top: 20px;
   border: 2px groove rgba(255, 255, 255, 0.5);
@@ -156,6 +156,21 @@ body{
 .icon-home{
   color:white;
 }
+
+.thumbnail{
+  background-color: gray !important;
+}
+
+.GalInd{
+  min-height: 327px;
+  max-height: 327px;
+}
+
+.soluciones{
+  margin-bottom: 10px;
+}
+
+
 
 @media screen and (max-width 770px){
 

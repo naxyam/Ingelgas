@@ -13,21 +13,55 @@
 		</head>
 		<body>
 					<div class="container">
-						<div class="header row nav">
-								<div class="col-lg-3 borde">
-									<a class="enlace-nav"href="index.html">Inicio</a>
-								</div>
-								<div class="col-lg-3 borde">
-									<a class="enlace-nav" href="Nosotros.html">Nosotros</a>
-								</div>
-								<div class="col-lg-3 borde">
-									<a class="enlace-nav" href="soluciones.html">Soluciones</a>
-								</div>
-								<div class="col-lg-3 borde">
-									<a class="enlace-nav"href="contacto.html">Contáctenos</a>
-								</div>
-						</div>
-
+						<nav class="navbar navbar-inverse navbar-static-top" role="navigator">
+             <div class="container">
+             <!-- contenedor del menu delplegable solo visible en dispositivos pequeños -->
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-Ing">
+                    <span class="sr-only"> Desplegar/Ocultar Menú</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                          
+                          
+                  </button>
+                </div>
+            
+            
+              <div class="collapse navbar-collapse" id="nav-Ing">
+                <ul class="nav navbar-nav">
+                  <li ><a href="index.html">
+                  Inicio <span class="glyphicon glyphicon-home"></span>
+                  </a></li>
+                  <li ><a href="Nosotros.html">
+                  Nosotros <span class="glyphicon glyphicon-th"></span>
+                  </a></li>
+                  <li>
+                  <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
+                    Soluciones <span class="glyphicon glyphicon-check"></span><span class="caret"></span>
+                  </a>
+                  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownSol">
+                    <li role="presentation"><a role="item" href="soluciones.html">Soluciones</a></li>
+                    <li class="divider"></li>
+                    <li role="presentation"><a role="item" href="soluciones_industrial.html">Sector Industrial</a></li>
+                    <li class="divider"></li>
+                    <li role="presentation"><a role="item" href="soluciones_comercial.html">Sector Comercial</a></li>
+                    <li class="divider"></li>
+                    <li role="presentation"><a role="item" href="soluciones_residencial.html">Sector Residencial</a>
+                    </li>
+                    
+                  </ul>
+                  <li class="active"><a href="contacto.html">
+                  Contáctenos <span class="glyphicon glyphicon-globe"></span>
+                  </a></li>
+                  </li>
+                  
+                  
+                </ul>
+            </div>
+            </div>
+          </nav>
 
 						<div class="row logo">
 									<div class="cont-logo col-lg-offset-4 col-lg-4">
@@ -119,7 +153,8 @@
       						</div>
       	</div>
 
-
+           <script src="js/jquery.js"></script>
+          <script src="js/bootstrap.min.js"></script>
       		</body>
 
       	</html>
