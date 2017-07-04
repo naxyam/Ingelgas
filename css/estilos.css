@@ -39,6 +39,10 @@ body{
   font-size: 1.3em
 }
 
+.cont-logo{
+  text-align: center;
+}
+
 .header{
   background: gray;
   padding: 20px;
@@ -159,11 +163,16 @@ body{
 
 .thumbnail{
   background-color: gray !important;
+
+}
+
+.caption h3{
+  color: white;
 }
 
 .GalInd{
-  min-height: 327px;
-  max-height: 327px;
+  min-height: 35rem;
+  
 }
 
 .soluciones{
@@ -172,6 +181,16 @@ body{
 
 
 
-@media screen and (max-width 770px){
+@media (min-width:768px) and (max-width: 992px){
 
+.copyright{
+  min-height: 50%;
 }
+
+.redes{
+  min-height: 50%
+}
+
+ 
+}
+
