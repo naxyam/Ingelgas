@@ -222,8 +222,8 @@ border: solid 1px gray;
 }
 @media(max-width: 766px){
   #contGal2 img{
-    max-width: 200px;
-    text-align: center !important;
+    max-width: 400px;
+    
   }
 }
 
