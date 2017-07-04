@@ -220,6 +220,7 @@ border: solid 1px gray;
  margin-bottom: 10px;
 }
 }
+
 @media(max-width: 766px){
   #contGal2 img{
     max-width: 400px;
