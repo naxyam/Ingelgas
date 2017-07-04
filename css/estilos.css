@@ -161,36 +161,56 @@ body{
   color:white;
 }
 
-.thumbnail{
-  background-color: gray !important;
 
-}
 
 .caption h3{
   color: white;
 }
 
-.GalInd{
-  min-height: 35rem;
-  
-}
 
 .soluciones{
   margin-bottom: 10px;
 }
 
+@media(min-width: 993px){
 
-
-@media (min-width:768px) and (max-width: 992px){
-
-.copyright{
-  min-height: 50%;
+  .GalInd{
+    min-height: 241px;
+    padding-bottom: 10px;
+  
+  
 }
 
-.redes{
-  min-height: 50%
+
 }
 
- 
+
+@media  (min-width:768px) and (max-width: 992px){
+
+
+.ubiquenos h3{
+  margin:0px;
+  padding-bottom: 5px;
+
+
+  
 }
 
+
+ .GalInd{
+  min-height: 284px;
+  margin-bottom: 15px;
+}
+
+
+}
+
+@media  (min-width:600px) and (max-width: 767px){
+
+.GalInd{
+ width:100%;
+ height: 100%;
+ margin-bottom: 10px;
+}
+
+}
