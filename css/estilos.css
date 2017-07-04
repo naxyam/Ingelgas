@@ -172,7 +172,11 @@ body{
   margin-bottom: 10px;
 }
 
-@media(min-width: 993px){
+.thumbnail{
+  background-color: rgba(247, 125, 12, 0.97) !important;
+}
+
+@media (min-width: 993px){
 
   .GalInd{
     min-height: 241px;
@@ -191,16 +195,19 @@ body{
 .ubiquenos h3{
   margin:0px;
   padding-bottom: 5px;
-
+  }
 
   
-}
-
 
  .GalInd{
   min-height: 284px;
   margin-bottom: 15px;
 }
+
+#contfooter{
+border: solid 1px gray;
+}
+
 
 
 }
@@ -212,5 +219,13 @@ body{
  height: 100%;
  margin-bottom: 10px;
 }
-
 }
+@media(max-width: 766px){
+  #contGal2 img{
+    max-width: 200px;
+    text-align: center !important;
+  }
+}
+
+
+
