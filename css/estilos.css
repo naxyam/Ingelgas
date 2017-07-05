@@ -59,12 +59,16 @@ body{
   color:white;
   }
 
+  .galeria{
+  box-shadow: 2px 2px 5px gray !important;
+}
+
   .galeria img{
     height: 20em;
   }
 
 .fondo1{
-  background:rgba(247, 155, 78, 0.90);
+  background:rgba(247, 155, 78, 0.97);
   padding: 30px;
   margin-top: 10px;
 }
@@ -87,7 +91,7 @@ body{
 }
 
 .fondo3{
-  background: rgba(247, 155, 78, 0.90);
+  background: rgba(247, 155, 78, 0.97);
   }
 
 .presentacion p{
@@ -177,6 +181,10 @@ body{
 
 .thumbnail{
   background-color: rgba(247, 125, 12, 0.97) !important;
+}
+
+.thumbnail:hover{
+ transform: scale(1.1,1.1);
 }
 
 @media (min-width: 993px){
